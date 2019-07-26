@@ -1,5 +1,4 @@
 # laravel-persian-lang
 persian language for laravel framework
-available versions : 
+* available versions : 
 - 5.8.*
-زبان فارسی برای لاراول
