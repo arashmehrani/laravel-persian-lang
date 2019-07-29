@@ -26,7 +26,7 @@ return [
     'between' => [
         'numeric' => 'عدد :attribute باید بین :min تا :max باشد',
         'file' => 'حجم :attribute باید بین :min تا :max کیلوبایت باشد.',
-        'string' => 'گزینه :attribute میتواند شامل :min تا :max حرف باشد.',
+        'string' => 'گزینه :attribute باید شامل :min تا :max کاراکتر باشد.',
         'array' => 'آرایه :attribute باید بین :min تا :max باشد.',
     ],
     'boolean' => 'گزینه :attribute تنها میتواند صحیح با غلط باشد.',
