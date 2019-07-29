@@ -112,7 +112,7 @@ return [
     'starts_with' => 'گزینه :attribute باید با یکی از این موارد شروع شود : :values',
     'string' => 'گزینه :attribute تنها می تواند حروف باشد.',
     'timezone' => 'گزینه :attribute باید یک منطقه زمانی معتبر باشد.',
-    'unique' => 'گزینه :attribute از قبل وجود دارد.',
+    'unique' => 'این :attribute از قبل وجود دارد.',
     'uploaded' => 'گزینه :attribute آپلود نشد.',
     'url' => 'فرمت گزینه :attribute صحیح نمی باشد.',
     'uuid' => 'گزینه :attribute باید یک UUID صحیح باشد.',
