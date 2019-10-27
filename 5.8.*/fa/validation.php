@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'accepted' => 'گزینه :attribute باید پذیرفته شود.',
+    'accepted' => ':attribute باید پذیرفته شود',
     'active_url' => 'آدرس :attribute معتبر نمی باشد.',
     'after' => 'گزینه :attribute باید تاریخی بعد از :date باشد.',
     'after_or_equal' => 'گزینه :attribute باید تاریخی بعد یا همزمان با :date باشد.',
@@ -116,7 +116,6 @@ return [
     'uploaded' => 'گزینه :attribute آپلود نشد.',
     'url' => 'فرمت گزینه :attribute صحیح نمی باشد.',
     'uuid' => 'گزینه :attribute باید یک UUID صحیح باشد.',
-
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -127,13 +126,11 @@ return [
     | specify a specific custom language line for a given attribute rule.
     |
     */
-
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -144,7 +141,6 @@ return [
     | of "email". This simply helps us make our message more expressive.
     |
     */
-
     'attributes' => [
         'name' => 'نام',
         'username' => 'نام کاربری',
@@ -156,7 +152,7 @@ return [
         'city' => 'شهر',
         'state' => 'استان',
         'country' => 'کشور',
-        'address' => 'نشانی',
+        'address' => 'آدرس',
         'phone' => 'تلفن',
         'mobile' => 'تلفن همراه',
         'age' => 'سن',
@@ -172,7 +168,6 @@ return [
         'text' => 'متن',
         'content' => 'محتوا',
         'description' => 'توضیحات',
-        'excerpt' => 'گلچین کردن',
         'date' => 'تاریخ',
         'time' => 'زمان',
         'available' => 'موجود',
@@ -180,6 +175,7 @@ return [
         'img' => 'تصویر',
         'image' => 'تصویر',
         'size' => 'اندازه',
+        'color' => 'رنگ',
         'captcha' => 'کد امنیتی',
         'price' => 'قیمت',
         'meter' => 'متراژ',
@@ -189,7 +185,8 @@ return [
         'guest_phone' => 'تلفن میهمان',
         'msg_title' => 'موضوع پیام',
         'msg_pm' => 'متن پیام',
-        'pic' => 'انتخاب تصویر',
+        'msg' => 'پیام',
+        'pic' => 'تصویر',
         'pic1' => 'تصویر اول',
         'pic2' => 'تصویر دوم',
         'pic3' => 'تصویر سوم',
@@ -199,8 +196,8 @@ return [
         'pm' => 'پیام',
         'question' => 'سئوال',
         'rule' => 'قانون',
+        'rules' => 'شرایط و قوانین',
         'link' => 'لینک',
         'family' => 'نام خانوادگی'
     ],
-
 ];
