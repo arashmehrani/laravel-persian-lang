@@ -141,14 +141,14 @@ return [
     | of "email". This simply helps us make our message more expressive.
     |
     */
-    'attributes' => [
+'attributes' => [
         'name' => 'نام',
         'username' => 'نام کاربری',
         'email' => 'ایمیل',
         'first_name' => 'نام',
         'last_name' => 'نام خانوادگی',
         'password' => 'رمز عبور',
-        'password_confirmation' => 'تاییدیه ی رمز عبور',
+        'password_confirmation' => 'تاییدیه رمز عبور',
         'city' => 'شهر',
         'state' => 'استان',
         'country' => 'کشور',
@@ -178,26 +178,7 @@ return [
         'color' => 'رنگ',
         'captcha' => 'کد امنیتی',
         'price' => 'قیمت',
-        'meter' => 'متراژ',
-        'date_in' => 'زمان ورود',
-        'date_out' => 'زمان خروج',
-        'guest_name' => 'نام میهمان',
-        'guest_phone' => 'تلفن میهمان',
-        'msg_title' => 'موضوع پیام',
-        'msg_pm' => 'متن پیام',
-        'msg' => 'پیام',
         'pic' => 'تصویر',
-        'pic1' => 'تصویر اول',
-        'pic2' => 'تصویر دوم',
-        'pic3' => 'تصویر سوم',
-        'pic4' => 'تصویر چهارم',
-        'answer' => 'پاسخ',
-        'info' => 'توضیحات',
-        'pm' => 'پیام',
-        'question' => 'سئوال',
-        'rule' => 'قانون',
-        'rules' => 'شرایط و قوانین',
         'link' => 'لینک',
-        'family' => 'نام خانوادگی'
     ],
 ];
