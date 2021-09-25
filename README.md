@@ -23,10 +23,11 @@ laravel/
 2. then in your laravel project go to the this address: `\config` and open `app.php` then search for `'locale' => 'en'` and change it to `'locale' => 'fa'`
 3. done.
 
-<div dir="rtl">
+
 # زبان فارسی برای فریم ورک لاراول
 ###### دردسترس برای نگارش های:
-- لاراول 5.8
+<div dir="rtl">
+- لاراول 5.8.*
 - لاراول 6
 - لاراول 7
 - لاراول 8
