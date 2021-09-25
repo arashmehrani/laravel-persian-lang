@@ -1,5 +1,5 @@
 # Persian language for Laravel framework
-###### available versions : 5.8.*, 6.*, 7.* & 8.*
+###### available versions : 5.8.* - 6.* - 7.* & 8.*
 
 ## What's included
 
