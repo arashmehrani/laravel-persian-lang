@@ -4,6 +4,7 @@
 - Laravel 6.*
 - Laravel 7.*
 - Laravel 8.*
+- Laravel 9.*
 
 ## What's included
 
