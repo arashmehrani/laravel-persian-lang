@@ -1,4 +1,4 @@
-# Persian language for Laravel framework
+# Persian language for Laravel framework versions 5.8 - 11
 ###### available versions:
 - Laravel 5.8.*
 - Laravel 6.*
@@ -6,7 +6,8 @@
 - Laravel 8.*
 - Laravel 9.*
 - Laravel 10.*
-
+- Laravel 11.*
+  
 ## What's included
 
 ```text
@@ -34,7 +35,19 @@ laravel/
 2. حالا در پروژه لاراول خود به مسیر `\config` بروید و فایل `app.php` را باز کنید. در آن فایل دنبال عبارت `'locale' => 'en'` بگردید و آن را به `'locale' => 'fa'` تغییر دهید.
 3. حالا تمام پیغام ها و ایمیل های لاراول فارسی شده است!
 <br>
--- نکته : برای لاراول 10 باید ابتدا فایل های زبان را با دستور آرتیزان پابلیش نمایید.
+-- نکته : برای لاراول 10 باید ابتدا فایل های زبان را با دستور آرتیزان پابلیش نمایید و پوشه زبان ها به صورت زیر است :
 </div>
 
-`php artisan lang:publish`
+```text
+laravel/
+    └── lang/
+        └── fa/
+            ├── auth.php
+            ├── pagination.php
+            ├── passwords.php
+            └── validation.php
+```
+
+```cli
+php artisan lang:publish
+```
